@@ -1,0 +1,11 @@
+[package]
+name = "bls12-381-random"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+blstrs = "0.7.1"
+group = "0.13.0"
+rand = "0.8"
+hex = "0.4.3"
+hex-literal = "1.1.0"
