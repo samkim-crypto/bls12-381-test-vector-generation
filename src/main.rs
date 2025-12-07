@@ -224,7 +224,7 @@ fn main() {
     let p2_rand2 = G2Projective::random(&mut rng);
     let s_rand1 = Scalar::random(&mut rng);
     let s_zero = Scalar::ZERO;
-    let s_one = Scalar::ZERO;
+    let s_one = Scalar::ONE;
 
     // Macro to easily add cases to the map
     macro_rules! add_case {
